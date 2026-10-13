@@ -1,0 +1,51 @@
+MACHINE LEARNING
+
+Introduction
+
+Machine learning is a branch of artificial intelligence that allows computers to learn from data without being explicitly programmed. Instead of writing fixed rules for every situation, programmers give a computer many examples, and the computer finds the patterns by itself. Once the patterns are learned, the model can make predictions or decisions on new data that it has never seen before. Today, machine learning is used in almost every industry, from healthcare and banking to education and entertainment.
+
+History of Machine Learning
+
+The idea of intelligent machines is old. In 1950, Alan Turing published a famous paper called Computing Machinery and Intelligence, in which he asked whether machines can think. In 1958, Frank Rosenblatt built the perceptron at Cornell University, which was one of the first simple neural networks. The term machine learning was made popular in 1959 by Arthur Samuel, who worked at IBM and created a computer program that learned to play checkers better with every game.
+
+For many years progress was slow because computers were weak and data was limited. Interest grew again in the 1990s when researchers started using statistics and larger datasets. In 2009, Netflix offered a prize of $1 million to any team that could improve its movie recommendation system by 10%. The competition showed the world how powerful machine learning can be on real business problems. In 2012, a deep neural network built by Geoffrey Hinton and his students at the University of Toronto won the ImageNet competition by a large margin, and this event started the deep learning revolution. In 2018, Geoffrey Hinton, Yann LeCun and Yoshua Bengio received the Turing Award for their work on deep learning.
+
+Types of Machine Learning
+
+There are 3 main types of machine learning: supervised, unsupervised and reinforcement learning.
+
+In supervised learning, the model is trained on labeled data. Every training example has an input and the correct answer. For example, a model can be trained on thousands of emails that are already marked as spam or not spam. After training, the model can classify a new email. Supervised learning is mainly used for two tasks, classification and regression. Classification predicts a category, while regression predicts a number such as the price of a house.
+
+In unsupervised learning, the data has no labels. The model tries to find hidden structure on its own. Clustering is the most common example, where customers with similar buying habits are grouped together. Companies like Amazon use such groups to understand their customers and to recommend products.
+
+In reinforcement learning, an agent learns by interacting with an environment. It receives a reward when it takes a good action and a penalty when it takes a bad action. Over time the agent learns the best strategy. Reinforcement learning is used in robotics, in game playing and in self driving systems.
+
+Common Algorithms
+
+Students are studying algorithms like linear regression and decision trees because they are simple and easy to understand. Linear regression fits a straight line through the data to predict a value. Logistic regression is used when the answer is yes or no. A decision tree asks a series of questions about the data and follows the branches until it reaches a decision. A random forest combines many decision trees to get a better and more stable result. Other popular algorithms are k nearest neighbors, support vector machines and k means clustering. Neural networks are made of layers of small units called neurons, and deep neural networks with many layers are the base of modern speech recognition and image recognition.
+
+The Machine Learning Workflow
+
+A machine learning project usually follows the same steps. First, the team collects data from files, databases or websites. Second, the data is cleaned because real data often has missing values, spelling mistakes and duplicates. Third, the important features are selected. Fourth, the data is split into a training set and a testing set, commonly in the ratio of 80% and 20%. Fifth, the model is trained on the training set. Sixth, the model is tested on the testing set and the results are evaluated. Finally, the best model is deployed so that people can use it.
+
+Data scientists clean the data, train the models and evaluate the results. This work needs knowledge of mathematics, statistics and programming. Python is a popular programming language for building machine learning models because it is easy to learn and has powerful libraries such as scikit-learn, TensorFlow and PyTorch. Andrew Ng, who taught at Stanford University and co-founded Coursera, made machine learning education available to millions of learners around the world.
+
+Machine Learning and Natural Language Processing
+
+Natural language processing, or NLP, is the area of machine learning that deals with human language. Before a model can understand text, the text must be prepared. The text is split into tokens, stop words such as the and is are removed, and words are reduced to their base form by lemmatization or stemming. Part of speech tagging finds whether each word is a noun, a verb or an adjective, and named entity recognition finds the names of people, companies, places, dates and money in a text. These steps convert raw text into clean data that a model can learn from. Companies like Google and Microsoft use NLP in search engines, translation tools and voice assistants.
+
+Evaluating a Model
+
+A model must be tested before it is trusted. Accuracy tells us what percentage of the predictions are correct. For example, a spam filter may reach 95% accuracy on the testing data. However, accuracy alone can be misleading when one class is much larger than the other, so precision, recall and the F1 score are also used. Two common problems are overfitting and underfitting. An overfitted model memorizes the training data and performs badly on new data, while an underfitted model is too simple to learn the pattern. Good models make better predictions when they are trained on more data and tested carefully.
+
+Applications of Machine Learning
+
+Machine learning is all around us. Hospitals use it to detect diseases from X-ray images. Banks use it to find fraud in credit card transactions. Netflix and YouTube use it to suggest videos, and Amazon uses it to suggest products. Tesla uses it in the driver assistance system of its cars, and Elon Musk has often spoken about the future of self driving vehicles. OpenAI and Google have built large language models that can write text, answer questions and help with programming. In India, companies in Bengaluru and Hyderabad use machine learning in banking, farming, education and online shopping, and many students in Delhi and Mumbai are learning data science every year.
+
+Challenges and Ethics
+
+Machine learning also has challenges. A model is only as good as its data, so poor or biased data produces poor or unfair results. Training large models needs a lot of computing power and money. Many models are hard to explain, which is a problem in areas like medicine and law where people need to know why a decision was made. Privacy is another concern because models are often trained on personal data. Governments and companies are now writing rules to make sure that artificial intelligence is used in a safe and fair way.
+
+Conclusion
+
+Machine learning has changed the way we live and work, and it will continue to grow in the coming years. Anyone who wants to build a career in technology should learn the basics of Python, statistics and data handling, and then practice on small projects. By learning how to clean text, train models and evaluate the results, students can build useful systems and solve real problems.
